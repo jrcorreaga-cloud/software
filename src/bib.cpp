@@ -7,3 +7,7 @@ std::string toUpperCase(const std::string& input) {
     }
     return result;
 }
+int fibonacci(int n) {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
